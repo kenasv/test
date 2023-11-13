@@ -1,0 +1,13 @@
+bash winda 11:
+
+curl -X POST --location "http://localhost:8080" -H "Content-Type: application/json" -d "{ \"text\": \"Hello!\" }"
+
+curl -X POST --location "http://localhost:8080" -H "Content-Type: application/json" -d "{ \"text\": \"Bonjour!\" }"
+
+curl -X POST --location "http://localhost:8080" -H "Content-Type: application/json" -d "{ \"text\": \"Privet!\" }"
+
+curl -X GET --location "http://192.168.31.140:8080"
+
+
+for Windows 11 для PowerShell для get:
+curl http://192.168.31.140:8080
